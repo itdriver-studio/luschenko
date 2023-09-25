@@ -1,6 +1,7 @@
-document.querySelector('.out').innerHTML =12;
-document.querySelector('.header').innerHTML =12;
-console.log('hello');
-let a = 12;
+let i1 = document.querySelector('.i1');
+let b1 = document.querySelector('.b1');
 
-console.log(`qw ${a}`);
+b1.onclick = () => {
+    console.log(i1.value);
+    i1.value = '';
+}
