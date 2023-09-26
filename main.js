@@ -9,4 +9,16 @@ b1.onclick = () => {
     } else {
         console.log('no');
     }
+
+    switch (+i1.value) {
+        case 15:
+            console.log('one more');
+            break;
+
+        case 16:
+            console.log('minimum');
+        default:
+            console.log('ooook');
+            break;
+    }
 }
