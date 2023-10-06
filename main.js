@@ -1,24 +1,18 @@
 let i1 = document.querySelector('.i1');
+let t1 = document.querySelector('.t1');
+let i2 = document.querySelector('.i2');
 let b1 = document.querySelector('.b1');
+let b2 = document.querySelector('.b2');
+let span = document.querySelector('span');
 
 b1.onclick = () => {
-    if (+i1.value >= 16) {
-        console.log('welcome');
-    } else if (+i1.value == 0) {
-        console.log('wow');
-    } else {
-        console.log('no');
-    }
+    console.log(i1.max);
+}
 
-    switch (+i1.value) {
-        case 15:
-            console.log('one more');
-            break;
+i1.oninput = () => {
+    span.innerHTML = i1.value;
+}
 
-        case 16:
-            console.log('minimum');
-        default:
-            console.log('ooook');
-            break;
-    }
+b2.onclick = () => {
+    console.log(`${i2.value} ${i2.checked}`);
 }
