@@ -5,3 +5,12 @@ body {
 .d1 {
     background-color: #f00;
 }
+
+.two {
+    text-transform: uppercase;
+}
+
+.three {
+    background-color: orange;
+    border: 2px solid #000;
+}
