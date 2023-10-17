@@ -1,5 +1,7 @@
-let d1 = document.querySelector('.d1');
+let k = 0;
 
-for (let i = 0; i < 5; i++) {
-    d1.innerHTML += '*';
+while (k < 5) {
+    k++;
+    console.log('k: ' + k);
+
 }
