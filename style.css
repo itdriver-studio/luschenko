@@ -1,3 +1,7 @@
-body{
+body {
     font-family: monospace;
+}
+
+.d1 {
+    background-color: #f00;
 }
