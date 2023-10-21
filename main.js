@@ -18,5 +18,5 @@ console.log(a[k]);
 let = 'out';
 
 for (let key in a) {
-    d1.innerHTML += key + ' ';
+    d1.innerHTML += key + '---' + a[key] + ' ';
 }
