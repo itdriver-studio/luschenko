@@ -5,7 +5,7 @@ const a = {
     "z2": "hi",
     "y43": 1999,
 };
-a.yyyy = 555;
+a.yyyy = 555; // new elem
 a.b = 'uuu';
 
 console.log(a);
