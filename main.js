@@ -15,8 +15,13 @@ console.log(a[k]);
 
 // d1.innerHTML = a;
 
-let = 'out';
+let out = '';
 
 for (let key in a) {
-    d1.innerHTML += key + '---' + a[key] + ' ';
+    out += key + '---' + a[key] + '<br>';
 }
+
+d1.innerHTML = out;
+
+delete a.a;
+console.log(a);
